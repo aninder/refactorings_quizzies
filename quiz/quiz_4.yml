@@ -1,0 +1,27 @@
+--- &2 !ruby/object:Question
+text: is it small mammal?
+right: &1 !ruby/object:Question
+  text: does it like sleeping a lot?
+  right: !ruby/object:Answer
+    text: cat
+    parent: *1
+  left: !ruby/object:Answer
+    text: rat
+    parent: *1
+  parent: *2
+left: &4 !ruby/object:Question
+  text: is it a bird?
+  right: &3 !ruby/object:Question
+    text: is it a flightless bird?
+    right: !ruby/object:Answer
+      text: penguin
+      parent: *3
+    left: !ruby/object:Answer
+      text: myna
+      parent: *3
+    parent: *4
+  left: !ruby/object:Answer
+    text: elephant
+    parent: *4
+  parent: *2
+parent: 

@@ -1,0 +1,9 @@
+--- &1 !ruby/object:Question
+text: is it small mammal?
+right: !ruby/object:Answer
+  text: rat
+  parent: *1
+left: !ruby/object:Answer
+  text: elephant
+  parent: *1
+parent: 

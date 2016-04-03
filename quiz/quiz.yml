@@ -1,0 +1,9 @@
+--- &1 !ruby/object:Question
+text: is it a bird?
+right: !ruby/object:Animal
+  text: myna
+  parent: *1
+left: !ruby/object:Animal
+  text: mouse
+  parent: *1
+parent: 

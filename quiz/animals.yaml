@@ -1,0 +1,6 @@
+--- !ruby/object:Question
+question: Bird?
+correct: !ruby/object:Animal
+  name: myna
+incorrect: !ruby/object:Animal
+  name: mouse
